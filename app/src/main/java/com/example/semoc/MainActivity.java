@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView listSemoc;
     private String[] itens = {
-            "Mesas Redondas", "Jornada de pesquisa","Bate-Papos"
+            "Mesas Redondas", "Jornada de pesquisa","Bate-Papos","Sessoes Cientificas", "Semoc Jovem"
     };
 
     @Override
@@ -38,8 +38,22 @@ public class MainActivity extends AppCompatActivity {
                 String nomeSelecionado=listSemoc.getItemAtPosition(i).toString();
                 Toast.makeText(getApplicationContext(),nomeSelecionado,Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(MainActivity.this, MesaRedonda.class);
+                if(nomeSelecionado==listSemoc.getItemAtPosition(0)) {
+                    Intent intent = new Intent(MainActivity.this, MesaRedonda.class);
+                    startActivity(intent);
+                } else if (nomeSelecionado==listSemoc.getItemAtPosition(1)){
+                    Intent intent = new Intent(MainActivity.this, JornadaDePesquisa.class);
+                    startActivity(intent);
+                } else if (nomeSelecionado==listSemoc.getItemAtPosition(2)) {
+                    Intent intent = new Intent(MainActivity.this, BatePapo.class);
+                    startActivity(intent);
+                } else if (nomeSelecionado==listSemoc.getItemAtPosition(3)) {
+                        Intent intent = new Intent(MainActivity.this, SessoesCientificas.class);
+                        startActivity(intent);
+                } else {
+                Intent intent = new Intent(MainActivity.this, SessoesCientificas.class);
                 startActivity(intent);
+            }
             }
         });
 

@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/activity_jornada_de_pesquisa.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/activity_mesa_redonda.xml" value="0.18478260869565216" />
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/activity_my_adapter.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/activity_semoc.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/jornadadepesquisa.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/Harrison/AndroidStudioProjects/SEMOC2/app/src/main/res/layout/list_item_schedules.xml" value="0.12158054711246201" />
-        <entry key="..\:/Users/Harrison/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.17603850050658562" />
-        <entry key="..\:/Users/yC/Downloads/SEMOC2/app/src/main/res/layout/activity_jornada_de_pesquisa.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/yC/Downloads/SEMOC2/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/yC/Downloads/SEMOC2/app/src/main/res/layout/activity_mesa_redonda.xml" value="0.22554347826086957" />
-        <entry key="..\:/Users/yC/Downloads/SEMOC2/app/src/main/res/layout/activity_my_adapter.xml" value="0.22554347826086957" />
-        <entry key="..\:/Users/yC/Downloads/SEMOC2/app/src/main/res/layout/activity_semoc.xml" value="0.22554347826086957" />
-        <entry key="..\:/Users/yC/Downloads/SEMOC2/app/src/main/res/layout/list_item_schedules.xml" value="0.22554347826086957" />
-      </map>
-    </option>
-  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -1,11 +1,10 @@
 package com.example.semoc;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class JornadaDePesquisa extends AppCompatActivity {
 
@@ -13,11 +12,11 @@ public class JornadaDePesquisa extends AppCompatActivity {
     private String[] itens = {
             "\n18/10: 14h00h ás 16:30h: \n"
                     + "TEMA 1 - DIREITO AO TERRITÓRIO E À VIDA: \n"
-                    + "Grupo de Pesquisa Geotecnologias e Planejamento Territorial - GEOPLAN",
+            + "Grupo de Pesquisa Geotecnologias e Planejamento Territorial - GEOPLAN",
 
             "\n18/10: 14h00h ás 16:30h: \n"
-                    + "TEMA 2 - DIVERSIDADE E ALTERIDADE \n" +
-                    "Grupo de Pesquisa em Comunicação, Territorialidades e Culturas - COMTEC",
+                    + "TEMA 1 - TEMA 2 - DIVERSIDADE E ALTERIDADE \n" +
+            "Grupo de Pesquisa em Comunicação, Territorialidades e Culturas - COMTEC",
 
             "\n18/10: 14h00h ás 16:30h: \n"
                     + "TEMA 3 - POLÍTICAS PÚBLICAS E INCLUSÃO SOCIAL \n" +
@@ -42,20 +41,18 @@ public class JornadaDePesquisa extends AppCompatActivity {
 
             "\n20/10: 14h00h ás 16:30h: \n"
                     + "TEMA 1 - DIREITO AO TERRITÓRIO E À VIDA\n" +
-                    "Grupo de Pesquisa Desenvolvimento, Sociedade e Natureza - DSN\n \n",
+                    "Grupo de Pesquisa Desenvolvimento, Sociedade e Natureza - DSN\n",
 
             "\n20/10: 14h00h ás 16:30h: \n"
                     + "TEMA 2 - DIVERSIDADE E ALTERIDADE\n" +
                     "Grupo de Pesquisa Processos Urbanos e Direito à Cidade - DCidade \n",
 
-            "\n20/10: 14h00h ás 16:30h: \n"
-                    + "TEMA 3 - POLÍTICAS PÚBLICAS E INCLUSÃO SOCIAL\n" +
-                    "Observatório de Violência, Crime e Sociedade \n",
+            "\n20/10: 14h00h ás 16:30h: \n"+
+                    "Grupo de Pesquisa Processos Urbanos e Direito à Cidade - DCidade \n",
 
             "\n20/10: 14h00h ás 16:30h: \n"
                     + "TEMA 1 - DIREITO AO TERRITÓRIO E À VIDA\n" +
-                    "Grupo de Pesquisa Conservação e Evolução de Ecossistemas e da Biodiversidade -\n" +
-                    "ConEEBio \n",
+                    "Grupo de Pesquisa Processos Urbanos e Direito à Cidade - DCidade \n",
 
     };
 
@@ -70,8 +67,8 @@ public class JornadaDePesquisa extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 getApplicationContext(),
-                android.R.layout.simple_list_item_2,
-                android.R.id.text2, itens
+                android.R.layout.simple_list_item_1,
+                android.R.id.text1, itens
         );
         listJornadaDePesquisa.setAdapter(adapter);
 

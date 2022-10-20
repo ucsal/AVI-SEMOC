@@ -14,22 +14,22 @@ public class MesaRedonda extends AppCompatActivity {
 
 
             "\n18/10 - 9h30h ás 12:00h:\n" + "Abertura Mesa Redonda:\n" +
-                    "\nDireitos Fundamentais, Efetividade e Jurisdição Constitucional\n",
+                    "Direitos Fundamentais, Efetividade e Jurisdição Constitucional\n",
 
             " \n18/10 - 9h30h ás 12:00h\n" +
-                    "\nAcessibilidade em Escolas Municipais: ir, estar e voltar \n " ,
+                    "Acessibilidade em Escolas Municipais: ir, estar e voltar \n " ,
 
             "\n18/10 - 9:30 ás 12:00h\n " +
-                    "\nPrimeira infância\n",
+                    "Primeira infância\n",
 
             "\n18/10 - 9:30 ás 12:00h \n" +
-                    "\nPovos tradicionais e o direito ao território \n",
+                    "Povos tradicionais e o direito ao território \n",
 
             "\n18/10 - 14:00 ás 16:00h\n " +
                     "O Olhar na História para Identificar os Caminhos da Ciência \n",
 
             "\n18/10 - 18:30 ás 21:00:\n" +
-                    "\nO PIBID e a Residência Pedagógica na UCSAL: Desafios e experiências\n" +
+                    "O PIBID e a Residência Pedagógica na UCSAL: Desafios e experiências\n" +
                     "da Inclusão na Educação Básica e a Formação de Professores\n",
             "\n18/10 -18:30 ás 21:00: \n" +
                     "Direito à moradia e violações na pandemia de COVID-19\n",
